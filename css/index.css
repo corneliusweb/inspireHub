@@ -24,3 +24,9 @@
    border-bottom: 3px solid var(--white-color);
    text-decoration: none;
 }
+
+@media screen and (max-width: 580px) {
+   .site-msg p {
+      font-size: 30px;
+   }
+}

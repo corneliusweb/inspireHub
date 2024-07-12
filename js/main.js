@@ -23,7 +23,7 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
    
    if(emailPattern.test(email.value)) {
       //
-      alert(`Thanks for subscribing!🥳 \n I would tell you to verify email, but I am still learning.`);
+      alert(`Thanks for subscribing!🥳 \n This is still up because of the vercel link. Try the netlify link`);
       this.submit();
 
       // email.value = "";
