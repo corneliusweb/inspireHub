@@ -115,7 +115,7 @@ header #cta-btn {
 main section#hero {
    width: 100%;
    height: 714px;
-   background-image: url('images/fitness-background.jpg');
+   background-image: url('/images/fitness-background.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
