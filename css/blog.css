@@ -562,6 +562,7 @@ footer #copyright {
       background-color: var(--black-color);
       text-align: center;
       transition: .2s;
+      z-index: 1000;
    }
 
    header #cta-btn {
@@ -594,6 +595,7 @@ footer #copyright {
 
    header nav a.active {
       margin-bottom: 30px;
+      font-size: 25px;
    }
 
 
