@@ -604,6 +604,9 @@ footer #copyright {
    }
 
 
+   form {
+      width: unset;
+   }
 
    section#recent-blog-post article {
       flex-direction: column;
