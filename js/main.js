@@ -22,8 +22,10 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
    event.preventDefault();
    
    if(emailPattern.test(email.value)) {
+      //
       alert(`Thanks for subscribing!🥳 \n I would tell you to verify email, but I am still learning.`);
-      email.value = "";
+      this.onsubmit();
+      //
    } else {
       errorMsg.style.display = 'block';
    }
