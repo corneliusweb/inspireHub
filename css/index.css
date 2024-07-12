@@ -15,6 +15,7 @@
    font-weight: 500;
    padding: 0;
    margin: 0;
+   text-align: center;
 }
 
 .site-msg a {
@@ -25,8 +26,16 @@
    text-decoration: none;
 }
 
+p .icon {
+   font-size: 36px;
+}
+
 @media screen and (max-width: 580px) {
    .site-msg p {
-      font-size: 30px;
+      font-size: 28px;
+   }
+
+   p .icon {
+      font-size: 24px;
    }
 }
