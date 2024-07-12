@@ -15,7 +15,7 @@ close.addEventListener('click', function () {
 
 
 let errorMsg = document.getElementById('error-message');
-let email = document.getElementById("email");
+let email = document.getElementById('email');
 const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
 document.getElementById('newsletterForm').addEventListener('submit', function(event) {
@@ -24,7 +24,9 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
    if(emailPattern.test(email.value)) {
       //
       alert(`Thanks for subscribing!🥳 \n I would tell you to verify email, but I am still learning.`);
-      this.onsubmit();
+      this.submit();
+
+      // email.value = "";
       //
    } else {
       errorMsg.style.display = 'block';
