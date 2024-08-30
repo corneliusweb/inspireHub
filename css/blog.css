@@ -52,7 +52,7 @@
 
 body {
    font-family: var(--site-font), sans-serif;
-   max-width: var(--max-page-size);
+   /* max-width: var(--max-page-size); */
    background-color: var(--white-color);
 }
 
