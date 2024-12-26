@@ -559,9 +559,9 @@ footer #copyright {
       width: 100%;
       left: 0;
       top: 0;
-      background-color: var(--black-color);
+      background-color: var(--page-black-color);
       transition: .2s;
-      z-index: 1000;
+      z-index: 1;
       padding-left: 25px;
    }
 
@@ -575,7 +575,7 @@ footer #copyright {
       border-radius: 8px;
       border: none;
       font-weight: 500;
-      padding: 12px;
+      padding: 8px 0;
       font-size: 20px;
    }
 
@@ -585,14 +585,16 @@ footer #copyright {
    }
 
    header nav a:not(a.active) {
-      margin-bottom: 20px;
+      padding: 12px 0;
       font-size: 20px;
       display: inline-block;
+      padding-left: 0;
       color: var(--white-color);
    }
 
    header nav a.active {
-      margin-bottom: 30px;
+      padding: 12px 0;
+      border-bottom: none;
       font-size: 25px;
    }
 
