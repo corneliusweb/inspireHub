@@ -560,9 +560,9 @@ footer #copyright {
       left: 0;
       top: 0;
       background-color: var(--black-color);
-      text-align: center;
       transition: .2s;
       z-index: 1000;
+      padding-left: 25px;
    }
 
    header #cta-btn {
@@ -571,14 +571,12 @@ footer #copyright {
 
    #mobile-cta-btn {
       display: block;
-      background-color: var(--site-blue-color);
       color: var(--white-color);
       border-radius: 8px;
       border: none;
       font-weight: 500;
-      display: inline-block;
       padding: 12px;
-      margin-top: 30px;
+      font-size: 20px;
    }
 
    header nav ul {
